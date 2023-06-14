@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+.user-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.product-img {
+    width: 50%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 10px;
+}
+.footer {
+    background-color: #b9b7d4;
+    padding: 20px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:left">Donate for team B</h2>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <img src="images/th.jpg" alt="User" class="user-img">
+        <h1>User</h1>
+        <p class="title">abcxyz</p>
+        <p>adress:....</p>
+        <div style="margin: 24px 0;">
+          <a href="#"><i class="fa fa-dribbble"></i></a> 
+          <a href="#"><i class="fa fa-twitter"></i></a>  
+          <a href="#"><i class="fa fa-linkedin"></i></a>  
+          <a href="#"><i class="fa fa-facebook"></i></a> 
+        </div>
+        <p><button>Contact</button></p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div>
+        <h1>sanpham</h1>
+        <p>thong tin ...</p>
+        <img src="images/th.jpg" alt="sanpham" class="product-img">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+    <a href="https://www.facebook.com/hominhquynh.nhi">click here to conect with us</a>
+    <p>contact us for help...</p>
+    <p>This is the footer.</p>
+</div>
+</body>
+</html>
